@@ -1,0 +1,15 @@
+<!-- Call to action Start -->
+<section id="call-to-action" style="background-image: url('{{ .Site.Params.call.bgImage | absURL }}');">
+    {{ with .Site.Params.citation }}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <h4><i>{{ .citation }}</i></h4>
+            <p>{{ .author }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}

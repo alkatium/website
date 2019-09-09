@@ -1,0 +1,30 @@
+enable: true
+title: About Us
+paragraph: >
+  Young company wishing to contribute its knowledge through innovative projects.
+
+number:
+  enable : true
+numbers:
+  - icon: ion-coffee
+    counter: 102
+    text: Cups of Coffee
+  - icon: ion-code
+    counter: 12188
+    text: Lines of code
+  - icon: ion-cube
+    counter: 3
+    text: Projects in development
+  - icon: ion-clock
+    counter: 20
+    text: Hours of work per week
+
+peoples:
+  enable : true
+people:
+  - text: >
+      This company aims to make use of the expertise acquired during the training and the experiences on operational research and machine learning issues.
+    quoteImg: img/cotation.png    
+    image: img/profile_jbuisine.png
+    name: Jérôme Buisine
+    role: CEO-Alkatium

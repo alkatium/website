@@ -2,3 +2,99 @@ baseURL = "https://alkatium.com/"
 languageCode = "en-us"
 title = "Alkatium"
 theme = "airspace-hugo"
+
+[params]
+  home = "Home"
+  
+  [menu]
+
+#   [[menu.header]]
+#     weight = 2
+#     name = "Work"
+#     url = "#portfolio-work"
+    [[menu.header]]
+      weight = 4
+      name = "Services"
+      url = "#service"
+    [[menu.header]]
+      weight = 6
+      name = "About us"
+      url = "#testimonial"
+    [[menu.header]]
+      weight = 6
+      name = "Contact"
+      url = "#contact-form"
+
+
+    [[menu.footer]]
+      weight = 2
+      name = "Services"
+      url = "#services"
+    [[menu.footer]]
+      weight = 3
+      name = "About us"
+      url = "#testimonial"
+    [[menu.footer]]
+      weight = 4
+      name = "Contact us"
+      url = "#contact-form"
+#    [[menu.footer]]
+#      weight = 4
+#      name = "Blog"
+#      url = "blog"
+
+  [params.slider]
+    enable = true
+    title = "Artificial intelligence consulting company"
+    subtitle = "We love what we do because the time of machine learning is just beginning"
+    bgImage = "img/background.jpg"
+    btnText = "Discover Our Services"
+    url = "#service"
+
+  [params.wrapper]
+    enable = true
+    image = "img/wrapper-img.png"
+    title = "Alkatium"
+    italic = "The IA consulting company"
+    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "We believe in great ideas"
+    bgImage = "img/feature-bg.jpg"
+    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    [params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [params.citation]
+    enable = true
+    bgImage = "img/background.jpg"
+    citation = "Don't seek to have events happen as you wish, but wish them to happen as they do happen, and all will be well with you."
+    author = "Epictetus"
+    [params.citation.button]
+      url = "#"
+      text = ""
+
+  [params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = ""
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "6 chemin des trois cornets, 62630 Etaples, France"
+      email = "Email: contact@alkatium.com"
+      phone = "Phone: +33 6 78 99 46 80"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"
