@@ -19,21 +19,6 @@ portfolio:
     name: Tesla Motors
     description: >
       Labore et dolore magna aliqua. Ut enim ad
-  - category: Design
-    image: "/img/portfolio/work3.jpg"
-    name: Tesla Motors
-    description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Video
-    image: "/img/portfolio/work4.jpg"
-    name: Tesla Motors
-    description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Video
-    image: "/img/portfolio/work4.jpg"
-    name: Tesla Motors
-    description: >
-      Labore et dolore magna aliqua. Ut enim ad
 
       
 clients:
@@ -50,14 +35,4 @@ clients:
   - image: "/img/clients/clients-logo4.png"
     url: "#"
   - image: "/img/clients/clients-logo3.png"
-    url: "#"
-  - image: "/img/clients/clients-logo2.png"
-    url: "#"
-  - image: "/img/clients/clients-logo1.png"
-    url: "#"
-  - image: "/img/clients/clients-logo2.png"
-    url: "#"
-  - image: "/img/clients/clients-logo3.png"
-    url: "#"
-  - image: "/img/clients/clients-logo4.png"
     url: "#"

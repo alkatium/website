@@ -12,9 +12,9 @@ numbers:
   - icon: ion-code
     counter: 12188
     text: Lines of code
-  - icon: ion-compose
-    counter: 2000
-    text: Cups of Coffee
+  - icon: ion-cube
+    counter: 3
+    text: Projects in development
   - icon: ion-clock
     counter: 20
     text: Hours of work per week
