@@ -1,0 +1,4 @@
+baseURL = "https://alkatium.com/"
+languageCode = "en-us"
+title = "Alkatium"
+theme = "airspace-hugo"
