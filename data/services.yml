@@ -4,17 +4,17 @@ subtitle: >
  
 content:
 
-  - icon: ion-code
-    name: Branding
+  - icon: ion-chatboxes
+    name: Understanding
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Gathering of needs for the development of a performance-enhancing solution
 
   - icon: ion-compass
-    name: Web Design
+    name: Monitoring
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Direct customers to software solutions specific to their needs
 
-  - icon: ion-image
-    name: App Design
+  - icon: ion-lightbulb
+    name: Ideas
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Development and implementation of expert or predictive systems
