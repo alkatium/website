@@ -11,6 +11,7 @@
             <p>{{ .subtitle }}</p>
         </div>
     </div>
+    <!--
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
@@ -38,6 +39,7 @@
         </div>
       </div>
     </div>
+    -->
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
@@ -48,10 +50,13 @@
               <i class="fa fa-map-marker"></i>{{ .box.address }}
             </li>
             <li>
-              <i class="fa fa-envelope-o"></i>{{ .box.email }}
+              <i class="fa fa-envelope-o"></i><a href="mailto:{{ .box.email }}">{{ .box.email }}</a>
             </li>
             <li>
-              <i class="fa fa-phone"></i>{{ .box.phone }}
+              <i class="fa fa-phone"></i><a href="tel:{{ .box.phone }}">{{ .box.phone }}</a>
+            </li>
+            <li>
+              <i class="fa fa-github"></i><a href="{{ .box.github }}">{{ .box.github }}</a>
             </li>
           </ul>
           <ul class="social-icons">

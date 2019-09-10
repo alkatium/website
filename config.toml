@@ -56,15 +56,15 @@ theme = "airspace-hugo"
     image = "img/wrapper-img.png"
     title = "Alkatium"
     italic = "The IA consulting company"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    paragraph = "Alkatium is a very young company that wishes to make its knowledge available through collaborations. Current innovation in the IT world and more specifically in the field of machine learning is leading companies to improve their information systems and processes. Our company wants to provide adapted solutions in response to these improvements. In addition, Alkatium is strongly oriented towards opening the source code, i.e. free software."
 
   [params.blog]
-    enable = true
+    enable = false
     title = "Get The Latest On What We're doing"
     subtitle = "Catch up with us, anytime and anywhere"
 
   [params.feature]
-    enable = true
+    enable = false
     title = "We believe in great ideas"
     bgImage = "img/feature-bg.jpg"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
@@ -83,7 +83,7 @@ theme = "airspace-hugo"
 
   [params.contact]
     enable = true
-    title = "Drop us a note"
+    title = "Contact us"
     subtitle = ""
     [params.contact.form]
       name = "Your name"
@@ -94,7 +94,8 @@ theme = "airspace-hugo"
     [params.contact.box]
       title = "Stop by for a visit"
       address = "6 chemin des trois cornets, 62630 Etaples, France"
-      email = "Email: contact@alkatium.com"
-      phone = "Phone: +33 6 78 99 46 80"
+      email = "contact@alkatium.com"
+      phone = "+33 6 78 99 46 80"
+      github = "https://github.com/alkatium"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
