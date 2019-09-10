@@ -32,7 +32,7 @@
       {{ if .Site.Data.testimonial.peoples.enable }}
       <div class="col-md-6">
         <div class="testimonial-carousel">
-          <div id="testimonial-slider">
+          <div id="testimonial-slider" class="owl-caroussel">
             {{ range .Site.Data.testimonial.people }}
             <div>
                 <img src="{{.quoteImg | absURL }}" alt="IMG">
