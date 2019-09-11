@@ -1,0 +1,6 @@
+enable: true
+title: About this website
+icon: ion-coffee
+huho_link: https://gohugo.io/
+source_code_link: https://github.com/alkatium/Alkatium-Website
+theme_link: https://github.com/themefisher/airspace-hugo

@@ -1,0 +1,29 @@
+{{ partial "global-header.html" . }}
+
+{{ if .Site.Data.terms.enable }}
+<!-- Terms Start -->
+<section id="service">
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .Site.Data.terms.title }}</h2>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <div class="service-item">
+                <i class="{{ .Site.Data.terms.icon }}"></i>
+                <p>
+                    This website is generated using <a href="{{ .Site.Data.terms.hugo_link }}">hugo</a> engine. Hugo is a framework for building websites written in go (the Google programming language). 
+                    The source code of the site is available via the following <a href="{{ .Site.Data.terms.source_code_link }}">url</a>. A big thank you to the developers of the <a href="{{ .Site.Data.terms.theme_link }}">airspace-hugo</a> theme used to create this site.
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+{{ end }}
