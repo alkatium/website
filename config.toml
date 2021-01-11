@@ -23,8 +23,8 @@ theme = "airspace-hugo"
 #     url = "#portfolio-work"
   [[menu.header]]
     weight = 4
-    name = "Services"
-    url = "#service"
+    name = "Motivations"
+    url = "#services"
   [[menu.header]]
     weight = 6
     name = "About us"
@@ -37,7 +37,7 @@ theme = "airspace-hugo"
 
   [[menu.footer]]
     weight = 2
-    name = "Services"
+    name = "Motivations"
     url = "#services"
   [[menu.footer]]
     weight = 3
@@ -54,18 +54,18 @@ theme = "airspace-hugo"
 
 [params.slider]
   enable = true
-  title = "IT consulting company"
+  title = "IT OpenSource Association"
   subtitle = "We love what we do because the time of machine learning is just beginning"
   bgImage = "img/background.jpg"
-  btnText = "Discover Our Services"
+  btnText = "Discover Our Motivations"
   url = "#service"
 
 [params.wrapper]
   enable = true
   image = "img/wrapper-img.png"
   title = "Alkatium"
-  italic = "The IT consulting company"
-  paragraph = "Alkatium is a very young company that wishes to make its knowledge available through collaborations. Current innovation in the IT world and more specifically in the field of machine learning is leading companies to improve their information systems and processes. Our company wants to provide adapted solutions in response to these improvements. In addition, Alkatium is strongly oriented towards opening the source code, i.e. free software."
+  italic = "The IT OpenSource Association"
+  paragraph = "Alkatium is a very young association that wishes to share its knowledge available through collaborations. Current innovation in the IT world and more specifically in the field of machine learning is leading companies to improve their information systems and processes. Our association wants to provide adapted solutions in response to these improvements. Alkatium is strongly oriented towards opening the source code, i.e. free software."
 
 [params.blog]
   enable = false

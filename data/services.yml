@@ -1,20 +1,20 @@
 enable: true
-title: Our Services
+title: Our Motivations
 subtitle: >
  
 content:
 
   - icon: ion-chatboxes
-    name: Understanding
+    name: Conversations
     text: >
-      Gathering of needs for the development of a performance-enhancing solution
-
-  - icon: ion-compass
-    name: Monitoring
-    text: >
-      Direct customers to software solutions specific to their needs
+      It is through discussion that the best ideas can be found.
 
   - icon: ion-lightbulb
     name: Ideas
     text: >
-      Development and implementation of expert or predictive systems
+      These of these ideas that a new solution can be proposed.
+  
+  - icon: ion-cube
+    name: Projects
+    text: >
+      From these ideas beautiful projects are developed.
