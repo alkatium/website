@@ -7,12 +7,12 @@ content:
   - icon: ion-chatboxes
     name: Conversations
     text: >
-      It is through discussion that the best ideas can be found.
+      It is through discussion that new needs can be found.
 
   - icon: ion-lightbulb
     name: Ideas
     text: >
-      It is from these ideas that a new solution can be proposed.
+      It is from these needs that new ideas can be proposed.
   
   - icon: ion-cube
     name: Projects
